@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+
+# Ruby
+log/
+tmp/
+*.gem
+
+# Web/JS
+node_modules/
+dist/
+build/
+
+# Környezeti változók
+.env
