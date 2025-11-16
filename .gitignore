@@ -1,17 +1,43 @@
-# Python
+# ---- Python ----
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 venv/
+env/
+.venv/
+.env
 
-# Ruby
+# ---- Ruby ----
+*.gem
+*.rbc
+.bundle/
 log/
 tmp/
-*.gem
+db/*.sqlite3
+db/*.sqlite3-journal
+coverage/
+.rvmrc
 
-# Web/JS
+# ---- Node.js / JavaScript ----
 node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 dist/
 build/
 
-# Környezeti változók
-.env
+# ---- CSS / Frontend build ----
+*.css.map
+*.sass-cache
+*.scssc
+
+# ---- IDE / Editor ----
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ---- System files ----
+.DS_Store
+Thumbs.db
